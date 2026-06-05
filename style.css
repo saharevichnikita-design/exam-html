@@ -119,8 +119,12 @@ button {
     color: white;
     font-weight: bold;
     margin-bottom: 20px;
+    transition: 1s;
 }
-
+button:hover{
+    transform: translateY(-3px);
+    box-shadow:inset -1px 3px 8px 5px #aeb2b6 ;
+}
 .sign {
     color: gray;
     font-size: 12px;
@@ -214,8 +218,11 @@ input[type="checkbox"]:checked+.box .mark {
 .nikeimg {
     display: block;
     width: 100%;
+    transition: 0.8s;
 }
-
+.nikeimg:hover{
+    transform: translateY(-7px);
+}
 /* Third page */
 .third-page {
     padding: 60px 0;
@@ -257,8 +264,13 @@ h2 {
     border-radius: 30px;
     overflow: hidden;
     padding: 7.5px 22px;
+    transition: 1s;
 }
-
+.f-but:hover,
+.s-but:hover {
+    transform: translateY(-3px);
+    box-shadow:inset -1px 3px 8px 5px #aeb2b6;
+}
 .s-but {
     display: block;
     background-color: #111111;
@@ -266,6 +278,7 @@ h2 {
     border-radius: 30px;
     overflow: hidden;
     padding: 7.5px 22px;
+    transition: 1s;
 }
 
 .best {
@@ -278,7 +291,6 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
 }
-
 .inf_about_shoes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -312,8 +324,12 @@ h2 {
     background-color: white;
     border-radius: 30px;
     padding: 7.5px 20px;
+    transition: 1s;
 }
-
+.choice-text:hover{
+    transform: translateY(-3px);
+    box-shadow:inset -1px 3px 8px 5px #aeb2b6;
+}
 .choice a {
     position: relative;
 }
